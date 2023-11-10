@@ -1,0 +1,51 @@
+# -- coding utf-8 --
+
+Created on Fri Nov 10 132620 2023
+
+@author mar
+
+
+Tipo de problema Introducción de datos exigiendo alguna condición
+
+PROBLEMA
+Un alumno ha decidido crear una aplicación informática para introducir las
+notas de sus asignaturas.
+
+Se pide implementar el código que le permita
+1.  Introducir el número de asignaturas que tiene.
+      Se debe exigir que este número sea mayor que 0. En caso de que no lo sea,
+       debe mostrar un mensaje de error y volverlo a solicitar (tantas veces
+       como sea necesario).
+2.	Introducir la nota de cada una de las asignaturas, que pertenecerán al
+    intervalo [0,10].
+      En caso de que no la nota no esté en dicho intervalo, debe mostrar un
+       mensaje de error y volver a solicitar la nota (tantas veces como sea
+       necesario).
+      Las notas se irán almacenando en una lista.
+
+Ejemplo de ejecución
+
+    Introduzca el número de asignaturas -1
+    ERROR El número de asignaturas debe ser positivo.
+    Introduzca el número de asignaturas 3
+
+    Introduzca la nota de la asignatura ([0, 10]) 1.5
+    Introduzca la nota de la asignatura ([0, 10]) 10.1
+    ERROR La nota 10.1 no pertenece al intervalo [0,10]
+    Introduzca la nota de la asignatura ([0, 10]) 9.1
+    Introduzca la nota de la asignatura ([0, 10]) 7.3
+
+    Se introdujeron las notas de 3 asignaturas con valores [1.5, 9.1, 7.3]
+
+
+
+num_asig= int(input(introduce el número de asingaturasn))
+while num_asig=0
+    print(error)
+    num_asig= int(input(introduce el número de asingaturasn))
+    
+nota_asig= float(input(introduce la noa de la asignatura))
+while nota_asig
+    
+    
+
